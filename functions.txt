@@ -1,0 +1,74 @@
+Develop an Android application that uses the device’s built-in step sensor to count and display the number of steps taken by the user daily. The app also includes a customizable step goal tracker to help users stay motivated and active.
+
+
+---
+
+🧱 Structure:
+
+1. Activity/Fragment Layout
+
+Visually appealing and intuitive UI designed using XML.
+
+Displays real-time step count and daily goal progress.
+
+Includes a dashboard with:
+
+Daily steps
+
+Step goal progress (e.g., circular progress bar)
+
+Reset and settings options
+
+
+
+2. Navigation
+
+Implement smooth navigation between:
+
+Home (Step Counter Dashboard)
+
+History (Optional: shows past step records)
+
+Settings (Set daily goal or reset progress)
+
+
+
+3. Backend Integration (Optional)
+
+Use Firebase Realtime Database or local storage (SharedPreferences/Room) to:
+
+Store user goals
+
+Persist step count data
+
+Maintain history of steps over days
+
+
+
+
+---
+
+🛠 Technologies Used:
+
+Java/Kotlin: Core app logic and sensor handling
+
+XML: UI design with responsive layouts
+
+Android Jetpack Components (Optional):
+
+ViewModel: To manage UI-related data
+
+Navigation Component: To manage screen transitions
+
+
+
+
+---
+
+🔌 Optional Technologies:
+
+Firebase Realtime Database/Firestore: To store step data across sessions or sync to cloud
+
+Room Database: For storing daily step history locally
+
+Retrofit/Volley: If future API integration is needed (e.g., health tips, sync with health platforms)
